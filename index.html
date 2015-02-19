@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+   COLLABORATORS: None, assignment completed on own
+
+  -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Ready, Set, Translate !</title>
+    <link type="text/css" href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link type="text/css" href="translate_game.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script type="text/javascript" src="dicts.json"></script>
+    <script type="text/javascript" src="translate_game.js"></script>
+
+  </head>
+
+    <body>
+        <!--A header for the page-->
+        <h1 id="title_translator">Translate from <span style="color:#000000;">Spanish</span> to <span style="color:#000000;">English</span></h1>
+
+    <table border="0" id="input_block">
+        <tr>
+            <td>Spanish</td>
+            <td>English</td>
+            <td>Answer</td>
+        </tr>
+        <tr>
+            <td id="to_translate" style="color: #000000;">espejo</td>
+            <td><input id="input_text" type="text" class="pure-form" style="color: #000000; position: relative; top: -5px;" autofocus/></td>
+            <td><input id="input_record" type="submit" class="pure-button" value="See Answer" style="color: #000000; position: relative; top: -5px;"/></td>
+        </tr>
+    </table>
+
+    <table border="0" id="answers_block" style="position: relative; top: 30px;">
+        <tr>
+            <td class="correct">calabaza</td>
+            <td class="correct">pumpkin</td>
+            <td><span class="ui-icon ui-icon-check"></span></td>
+        </tr>
+        <tr>
+            <td class="wrong">postmodernidad</td>
+            <td class="wrong cross">phone</td>
+            <td class="wrong">postmodernism</td>
+        </tr>
+    </table>
+<!-- DEBUG FIELDS
+    <div id="insert_area1" style="position: relative; top: 150px;color: #000000"></div>
+
+    <div id="insert_area2" style="position: relative; top: 150px;color: #000000"></div>
+
+    <div id="insert_area3" style="position: relative; top: 150px;"></div>
+-->
+    </body>
+
+</html>

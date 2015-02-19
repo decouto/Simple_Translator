@@ -1,0 +1,17 @@
++ program chooses a random word from the dictionary for the user to translate (instead of espejo, on figure 1)
++ Clicking on the See Answer button prompts for another word, clears the <input>, and returns focus to the <input>.
++ Update your code so that when the user presses the See Answer button, the list of previous answers gets populated with each of the user's entries instead of the two static answers you entered in Part 1.
++ The entry which was submitted last appears at the top of the list.
++ The program uses the styles you defined in Part 1 for correct and incorrect entries.
++ When deciding whether an entry is correct, the program only performs exact matches: synonyms, capitalization differences etc... should be reported as incorrect translations.
+- The input field contains the user's guess. Use jQuery UI to make this field an autocomplete widget. It offers suggestions as soon as the user types two or more characters. Those selections should be the English words from the dictionary which contain the letters that the user has typed so far.
+- Selecting a suggestion prompts for another word, clears the <input>, returns focus to the <input>, checks to see if the answer is correct, and populates the list of previous answers accordingly (should have the same behavior as clicking on the See Answer button)
+- Make changes to your code so that pressing enter submits the user's reply even if the user didn't select a match from the autocomplete menu.
+- Pressing enter prompts for another word, clears the <input>, returns focus to the <input>, checks to see if the answer is correct, and populates the list of previous answers accordingly (should have the same behavior as clicking on the See Answer button and selecting an autocomplete suggestion)
+- Pressing enter when selecting a item from the autocomplete menu doesn't submit that item twice (don't forget to test that behavior on several browsers).
+- The autocomplete widget closes even if the user ends up not using it in order to select an item.
+- (OPTIONAL) Let the user choose the what language to translate from and to. The dicts.json file also contains dictionaries for English-French and German-Italian. If you'd like to add more choices, one possibility is to generate your own dicts.json file by getting more bilingual dictionary text files and modify the very simple parser we used in order to extract those words.
+- (OPTIONAL) Display the user's score. Have a timed mode so that the user can only enter words during, say, 1 minute. Display a countdown of how much time is left.
+- (OPTIONAL) Highlight the matching substring of each word in the list box, so that the user can see at a glance how the word matches the query.
+- (OPTIONAL) Use cookies to remember statistics, such as best score across multiple games. This could also be used so that words the user often gets wrong can be prompted more often in order improve memorization.
+

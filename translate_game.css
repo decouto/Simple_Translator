@@ -1,0 +1,40 @@
+* {
+    font-family: "Trebuchet MS";
+    color: #808080;
+  }
+
+html {
+    background-color: #eee;
+}
+
+#title_translator {
+	position:relative;
+	top:10px;
+	left:15px;
+	font-size:55px;
+}
+
+td {
+    width: 250px;
+    horizontal-align:left;
+    font-size:30px;
+}
+
+table {
+    position: relative;
+    left: 15px;
+}
+
+.wrong {
+    color:#FF0000;
+}
+
+.cross {
+    text-decoration: line-through;
+}
+
+.correct {
+    color:#0000FF;
+}
+
+/* Your CSS here */
