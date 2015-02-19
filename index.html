@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
+   David Couto PS1 6.813 Spring 2015
    COLLABORATORS: None, assignment completed on own
-
   -->
 <html>
   <head>
@@ -21,21 +21,22 @@
         <!--A header for the page-->
         <h1 id="title_translator">Translate from <span style="color:#000000;">Spanish</span> to <span style="color:#000000;">English</span></h1>
 
+   <!-- Tables used to align elements on page-->
     <table border="0" id="input_block">
         <tr>
             <td>Spanish</td>
             <td>English</td>
             <td>Answer</td>
         </tr>
-        <tr>
-            <td id="to_translate" style="color: #000000;">espejo</td>
+        <tr> <!--Button and Text field shifted up to align -5px-->
+            <td id="to_translate" style="color: #000000;"></td>
             <td><input id="input_text" type="text" class="pure-form" style="color: #000000; position: relative; top: -5px;" autofocus/></td>
             <td><input id="input_record" type="submit" class="pure-button" value="See Answer" style="color: #000000; position: relative; top: -5px;"/></td>
         </tr>
     </table>
 
     <table border="0" id="answers_block" style="position: relative; top: 30px;">
-        <tr>
+        <tr><!--Static format examples seen on load-->
             <td class="correct">calabaza</td>
             <td class="correct">pumpkin</td>
             <td><span class="ui-icon ui-icon-check"></span></td>
@@ -46,13 +47,7 @@
             <td class="wrong">postmodernism</td>
         </tr>
     </table>
-<!-- DEBUG FIELDS
-    <div id="insert_area1" style="position: relative; top: 150px;color: #000000"></div>
 
-    <div id="insert_area2" style="position: relative; top: 150px;color: #000000"></div>
-
-    <div id="insert_area3" style="position: relative; top: 150px;"></div>
--->
     </body>
 
 </html>

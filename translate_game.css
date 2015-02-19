@@ -1,4 +1,6 @@
-* {
+/*David Couto 6.813 PS1 Spring 2015*/
+
+* {/*global font and default color esablished*/
     font-family: "Trebuchet MS";
     color: #808080;
   }
@@ -14,7 +16,7 @@ html {
 	font-size:55px;
 }
 
-td {
+td {/*Cells spaced generously to allow for gap between columns*/
     width: 250px;
     horizontal-align:left;
     font-size:30px;
@@ -25,16 +27,14 @@ table {
     left: 15px;
 }
 
-.wrong {
+.wrong {/*style for wrong answer row*/
     color:#FF0000;
 }
 
-.cross {
+.cross {/*--style addition for incorrect answer in wrong answer row*/
     text-decoration: line-through;
 }
 
-.correct {
+.correct {/*style for correct answer row*/
     color:#0000FF;
 }
-
-/* Your CSS here */
